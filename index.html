@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
 
-<meta name="description" content="Guia de supervivencia para afrontar el concurso CantineoQueTeVeo. Tips y últimas noticias del concurso SEO de 2019. Versión (27-02-2019 11:13:32)" />
+<meta name="description" content="Guia de supervivencia para afrontar el concurso CantineoQueTeVeo. Tips y últimas noticias del concurso SEO de 2019. Versión (27-02-2019 11:27:21)" />
 <meta name="keywords" content="cantineoqueteveo,seo,guia,manual,concurso,madrid" />
 
 <meta name="geo.region" content="ES-M" />
@@ -32,45 +32,41 @@
 {
   "@context": "http://schema.org/",
 
-  "@graph": 
-  [
-    {
-		  "@id": "#author",
-		  "@type": "Person",
-		  "name": "CantineoQueTeVeo",
-		  "url": "https://cantineoqueteveo.one/",
-		  "image": "https://cantineoqueteveo.one/img/cantineoqueteveo-en-accion-id-1-4.jpg",
-		  "jobTitle": "Escritor",
-		  "birthPlace": "Madrid",
-		  "worksFor": 
-		  {
-			"@type": "Organization",
-			"name": "Concurso SEO S.L."
-		  },
-		  "sameAs" : 
-		  [ 
-      "https://t.me/cantineoqueteveo"
-		  ],
-		  "address": 
-		  {
-			"@type": "PostalAddress",
-				"streetAddress" : "Puerta del Sol, 2",
-				"addressLocality" : "Madrid",
-				"postalCode" : "28001"
-		  }
-
-    },
-    {
+    
 		"@type": "Book",
 		"name": "Cantineoqueteveo Vol. 1",
 		"description": "Mejor obra del artista CantineoQueTeVeo, publicada en su juventud.",
 		"genre": "Gastronomia",
-		"author": "#author",
+		"author": 
+		{
+				"@type": "Person",
+				"name": "CantineoQueTeVeo",
+				"url": "https://cantineoqueteveo.one/",
+				"image": "https://cantineoqueteveo.one/img/cantineoqueteveo-en-accion-id-1-4.jpg",
+				"jobTitle": "Escritor",
+				"birthPlace": "Madrid",
+				"worksFor": 
+				{
+				"@type": "Organization",
+				"name": "Concurso SEO S.L."
+				},
+				"sameAs" : 
+				[ 
+				"https://t.me/cantineoqueteveo"
+				],
+				"address": 
+				{
+				"@type": "PostalAddress",
+					"streetAddress" : "Puerta del Sol, 2",
+					"addressLocality" : "Madrid",
+					"postalCode" : "28001"
+				}
+		},
 		"isbn": "9743417114529",
 		"inLanguage": "es-ES",
 		"copyrightYear": "2019",
 		"isFamilyFriendly": "true",
-		"bookFormat": "EBook/DAISY3",
+		"bookFormat": "https://schema.org/Hardcover",
 		"image": "https://cantineoqueteveo.one/img/los-techos-son-muy-altos-id-1-240.jpg",
 		"aggregateRating": 
 		{
@@ -78,8 +74,6 @@
 			"ratingCount": "65",
 			"ratingValue": "3.9"
 		}
-    }
-  ]
 }
 
 </script>
